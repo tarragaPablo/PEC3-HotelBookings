@@ -50,6 +50,7 @@ El dashboard está organizado en varias páginas narrativas:
 
 **Pregunta clave:**  
 > ¿Son realmente relevantes las cancelaciones?
+![Análisis de cancelaciones](images/Pagina1.png)
 
 ---
 
@@ -59,6 +60,7 @@ El dashboard está organizado en varias páginas narrativas:
 
 **Pregunta clave:**  
 > ¿El tipo de hotel influye en el riesgo de cancelación?
+![Relación entre lead time y cancelaciones](images/Pagina2.png)
 
 ---
 
@@ -69,6 +71,8 @@ El dashboard está organizado en varias páginas narrativas:
 **Pregunta clave:**  
 > ¿Reservar con mucha antelación aumenta el riesgo de cancelación?
 
+![Lead Time y cancelaciones](images/Pagina3.png)
+
 ---
 
 ### 4️ - Condiciones de la reserva: tipo de depósito
@@ -77,6 +81,8 @@ El dashboard está organizado en varias páginas narrativas:
 
 **Pregunta clave:**  
 > ¿El depósito reduce realmente las cancelaciones o refleja un mayor riesgo?
+
+![Depósito de las reservas](images/Pagina4.png)
 
 ---
 
@@ -87,6 +93,8 @@ El dashboard está organizado en varias páginas narrativas:
 
 **Pregunta clave:**  
 > ¿Quién cancela más y por qué?
+
+![¿Quien cancela más?](images/Pagina5.png)
 
 ---
 
