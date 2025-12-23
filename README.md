@@ -21,9 +21,9 @@ Antes de abrir el informe es necesario instalar:
 
 ## Contenido del repositorio
 
-- `PEC3-StoryTelling.pbix` → Archivo principal del informe de Power BI
-- hotel_bookings.csv - Dataset utilizado.
-- `README.md` → Documento descriptivo del proyecto  
+- `PEC3-StoryTelling.pbix` - Archivo principal del informe de Power BI
+- `hotel_bookings.csv` - Dataset utilizado.
+- `README.md` - Documento descriptivo del proyecto  
 
 > Nota: Los datos están integrados o conectados desde el propio `.pbix` según el desarrollo realizado.
 
