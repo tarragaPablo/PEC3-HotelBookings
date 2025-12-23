@@ -9,17 +9,17 @@ El informe permite explorar la información por **país**, **tipo de cliente**, 
 
 ---
 
-## 🛠️ Requisitos previos
+## Requisitos previos
 
 Antes de abrir el informe es necesario instalar:
 
-### 🔹 Power BI Desktop
+### Power BI Desktop
 - Descargar desde la web oficial de Microsoft: https://powerbi.microsoft.com/desktop/
 - Disponible para Windows (versión gratuita).
 
 ---
 
-## 📁 Contenido del repositorio
+## Contenido del repositorio
 
 - `Informe_PEC3.pbix` → Archivo principal del informe de Power BI  
 - `README.md` → Documento descriptivo del proyecto  
@@ -28,11 +28,11 @@ Antes de abrir el informe es necesario instalar:
 
 ---
 
-## 📈 Estructura del informe en Power BI
+## Estructura del informe en Power BI
 
 El informe está organizado en una **página principal de análisis**, con los siguientes elementos:
 
-### 🔹 KPIs principales
+### KPIs principales
 - **Ingresos Netos**
 - **Número total de reservas**
 - **Booking Transient**
@@ -45,7 +45,7 @@ Estos KPIs permiten comparar el rendimiento general y diferenciar entre:
 
 ---
 
-### 🔹 Visualizaciones clave
+### Visualizaciones clave
 
 - **Top 5 países por reservas**
 - **Ranking de productos vendidos** (ordenado por ingresos)
@@ -54,7 +54,7 @@ Estos KPIs permiten comparar el rendimiento general y diferenciar entre:
 
 ---
 
-### 🔹 Filtros interactivos
+### Filtros interactivos
 
 - **Country (País)**  
   Permite analizar el comportamiento de las reservas y los ingresos por mercado.
@@ -63,7 +63,7 @@ Estos KPIs permiten comparar el rendimiento general y diferenciar entre:
 
 ---
 
-## 🧠 Enfoque de Storytelling
+## Enfoque de Storytelling
 
 El informe está diseñado para responder a preguntas clave como:
 
@@ -76,7 +76,7 @@ La estructura guía al usuario desde una **visión general** hacia un **análisi
 
 ---
 
-## 🖥️ Presentación del informe
+## Presentación del informe
 
 El informe puede presentarse de varias formas:
 
@@ -86,12 +86,11 @@ El informe puede presentarse de varias formas:
 
 ---
 
-## ✅ Conclusión
+## Conclusión
 
 Este proyecto demuestra el uso de Power BI como herramienta de **visualización efectiva**, aplicando buenas prácticas de diseño, selección de KPIs y storytelling para convertir datos en información útil.
 
 ---
 
-✍️ Autor/a: *(Tu nombre)*  
-📚 Asignatura: Visualización de Datos – PEC3  
-📅 Curso académico: 2024–2
+ Autor: *Pablo Tárraga Navarro*  
+ Asignatura: Visualización de Datos – PEC3  
