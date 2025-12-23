@@ -1,97 +1,115 @@
-# 📊 Informe de Visualización de Datos – Power BI (PEC3)
+# Hotel Bookings – Data Storytelling with Power BI
 
-## 🧩 Descripción general
+Este repositorio contiene un informe interactivo desarrollado en **Power BI** que analiza las **cancelaciones de reservas hoteleras** mediante técnicas de **visualización narrativa (data storytelling)**.
 
-Este repositorio contiene el desarrollo de un **informe interactivo en Power BI Desktop**, creado como parte de la **PEC3 de Visualización de Datos**.  
-El objetivo del proyecto es **analizar reservas e ingresos**, aplicando principios de **storytelling con datos**, uso adecuado de **KPIs**, filtros y visualizaciones para facilitar la toma de decisiones.
-
-El informe permite explorar la información por **país**, **tipo de cliente**, **producto** y **tipo de booking**, proporcionando una visión clara del rendimiento del negocio.
+El proyecto se basa en el conjunto de datos *Hotel Bookings* (2015–2017) y ha sido realizado como parte de una práctica académica centrada en analítica visual y narrativa de datos.
 
 ---
 
 ## Requisitos previos
 
-Antes de abrir el informe es necesario instalar:
+### Instalación de Power BI Desktop
 
-### Power BI Desktop
-- Descargar desde la web oficial de Microsoft: https://powerbi.microsoft.com/desktop/
-- Disponible para Windows (versión gratuita).
+Para poder abrir y explorar el informe es **necesario instalar Power BI Desktop**.
+
+- Descarga gratuita desde la web oficial de Microsoft:  
+  👉 https://powerbi.microsoft.com/desktop/
+- Disponible para sistemas **Windows**
+- No se requiere licencia de pago para visualizar el informe
+
+Una vez instalado, abre el archivo del informe (`.pbix`) directamente con Power BI Desktop.
 
 ---
 
 ## Contenido del repositorio
 
-- `PEC3-StoryTelling.pbix` - Archivo principal del informe de Power BI
-- `hotel_bookings.csv` - Dataset utilizado.
-- `README.md` - Documento descriptivo del proyecto  
-
-> Nota: Los datos están integrados o conectados desde el propio `.pbix` según el desarrollo realizado.
+- `PEC3-StoryTelling.pbix` → Informe interactivo en Power BI  
+- `hotel_bookings.csv` → Conjunto de datos original  
+- `README.md` → Descripción del proyecto y guía de uso  
 
 ---
 
-## Estructura del informe en Power BI
+## Descripción del informe
 
-El informe está organizado en una **página principal de análisis**, con los siguientes elementos:
+El informe analiza más de **80.000 reservas hoteleras** realizadas en dos hoteles de Portugal (un hotel urbano y un resort) entre los años **2015 y 2017**.
 
-### KPIs principales
-- **Ingresos Netos**
-- **Número total de reservas**
-- **Booking Transient**
-- **Booking Contract**
+El objetivo principal es **entender por qué se producen las cancelaciones** y qué factores influyen más en el riesgo de que una reserva sea cancelada.
 
-Estos KPIs permiten comparar el rendimiento general y diferenciar entre:
-
-- **Transient**: reservas individuales, más flexibles y de corto plazo.  
-- **Contract**: reservas asociadas a contratos o acuerdos, normalmente más estables.
+El análisis se presenta siguiendo un enfoque de **storytelling con datos**, donde cada página del informe responde a una pregunta concreta y conduce progresivamente a una conclusión final.
 
 ---
 
-### Visualizaciones clave
+## Estructura del informe
 
-- **Top 5 países por reservas**
-- **Ranking de productos vendidos** (ordenado por ingresos)
-- **Distribución por tipo de cliente**
-- **Comparativa de métricas relevantes** (según filtros)
+El dashboard está organizado en varias páginas narrativas:
 
----
+### 1️ - El problema de las cancelaciones
+- Visión general del dataset
+- Tasa global de cancelación
+- Contextualización del impacto del fenómeno
 
-### Filtros interactivos
-
-- **Country (País)**  
-  Permite analizar el comportamiento de las reservas y los ingresos por mercado.
-
-> Los filtros afectan dinámicamente a todos los KPIs y visualizaciones.
+**Pregunta clave:**  
+> ¿Son realmente relevantes las cancelaciones?
 
 ---
 
-## Enfoque de Storytelling
+### 2️ - Diferencias entre tipos de hotel
+- Comparación entre *City Hotel* y *Resort Hotel*
+- Identificación de diferencias estructurales en las tasas de cancelación
 
-El informe está diseñado para responder a preguntas clave como:
-
-- ¿Qué países generan más reservas?
-- ¿Qué tipo de cliente aporta más ingresos?
-- ¿Qué productos tienen mejor rendimiento?
-- ¿Cómo se comportan las reservas **Transient** vs **Contract**?
-
-La estructura guía al usuario desde una **visión general** hacia un **análisis específico**, apoyado por KPIs y rankings.
+**Pregunta clave:**  
+> ¿El tipo de hotel influye en el riesgo de cancelación?
 
 ---
 
-## Presentación del informe
+### 3️ - Antelación de la reserva (Lead Time)
+- Relación entre la antelación de la reserva y la probabilidad de cancelación
+- Análisis conjunto de riesgo y volumen de reservas
 
-El informe puede presentarse de varias formas:
+**Pregunta clave:**  
+> ¿Reservar con mucha antelación aumenta el riesgo de cancelación?
 
-- **Modo Presentación en Power BI Desktop**
-- **Publicación en Power BI Service** (si se dispone de cuenta)
-- **Presentación guiada** siguiendo el orden narrativo del dashboard
+---
+
+### 4️ - Condiciones de la reserva: tipo de depósito
+- Comparación entre reservas sin depósito, reembolsables y no reembolsables
+- Análisis crítico de resultados contraintuitivos
+
+**Pregunta clave:**  
+> ¿El depósito reduce realmente las cancelaciones o refleja un mayor riesgo?
+
+---
+
+### 5️ - Perfil del cliente (enfoque humano)
+- Análisis por tipo de cliente (*Transient, Contract, Group, Transient-Party*)
+- Filtros interactivos por hotel, país y antelación
+- Cierre narrativo centrado en el comportamiento humano
+
+**Pregunta clave:**  
+> ¿Quién cancela más y por qué?
+
+---
+
+## Interactividad
+
+El informe permite:
+- Filtrar por **tipo de hotel**
+- Filtrar por **país de origen**
+- Filtrar por **rango de antelación**
+- Explorar cómo cambian los patrones de cancelación según el contexto
+
+Esto refuerza la idea de que el riesgo de cancelación **no depende de un único factor**, sino de la combinación de condiciones y perfil del cliente.
 
 ---
 
 ## Conclusión
 
-Este proyecto demuestra el uso de Power BI como herramienta de **visualización efectiva**, aplicando buenas prácticas de diseño, selección de KPIs y storytelling para convertir datos en información útil.
+Este proyecto demuestra cómo la visualización de datos, combinada con una narrativa clara, permite transformar datos complejos en **insights comprensibles y accionables**.
+
+El análisis pone el foco no solo en los números, sino en **las decisiones humanas detrás de las cancelaciones**, ofreciendo una visión útil tanto desde el punto de vista analítico como de gestión hotelera.
 
 ---
 
- Autor: *Pablo Tárraga Navarro*  
- Asignatura: Visualización de Datos – PEC3  
+## Autor
+
+Proyecto desarrollado con fines académicos como ejercicio de **data storytelling y visual analytics**.
