@@ -31,7 +31,7 @@ Una vez instalado, abre el archivo del informe (`.pbix`) directamente con Power 
 
 ## Descripción del informe
 
-El informe analiza más de **80.000 reservas hoteleras** realizadas en dos hoteles de Portugal (un hotel urbano y un resort) entre los años **2015 y 2017**.
+El informe analiza más de **80.000 reservas hoteleras** realizadas en dos hoteles (un hotel urbano y un resort) entre los años **2015 y 2017**.
 
 El objetivo principal es **entender por qué se producen las cancelaciones** y qué factores influyen más en el riesgo de que una reserva sea cancelada.
 
